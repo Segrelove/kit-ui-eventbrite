@@ -5755,6 +5755,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+          font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
 }
 
 .list-group {
@@ -7223,6 +7224,7 @@ button.bg-dark:focus {
 
 .d-block {
   display: block !important;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
 }
 
 .d-table {
@@ -10695,17 +10697,17 @@ footer {
 
 
 .footer {
-  position: relative;
+  position: absolute;
   width: 100%;
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 1rem;
+  /* padding: 1rem; */
   text-align: center;
-  margin-top: -40px;
-  clear: both;
-  height: 220px;
-  padding-bottom: 220px;
+  /* margin-top: -40px; */
+  /* clear: both; */
+  /* height: 220px; */
+  /* padding-bottom: 220px; */
 }
 
 .footer a {
