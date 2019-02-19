@@ -10693,24 +10693,31 @@ blockquote {
 
 footer {
   font-size: 0.875em;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(22, 28, 31, 0.432);
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: space-between ;
+  padding-right: 1.5rem;
+  padding: 1rem;
 }
 
 
-.footer {
+/* .footer {
   position: absolute;
   width: 100%;
   right: 0;
   bottom: 0;
   left: 0;
-  /* padding: 1rem; */
+  padding: 1rem;
   text-align: center;
-  /* margin-top: -40px; */
-  /* clear: both; */
-  /* height: 220px; */
-  /* padding-bottom: 220px; */
-}
+  clear: both;
+} */
 
-.footer a {
+footer a {
   text-decoration: none;
 }
 
